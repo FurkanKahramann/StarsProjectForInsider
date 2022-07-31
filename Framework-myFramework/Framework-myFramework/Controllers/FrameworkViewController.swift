@@ -62,7 +62,7 @@ public class FrameworkViewController: UIViewController {
     
     private func showAlert(message: String){
         let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     
